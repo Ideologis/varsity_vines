@@ -1,0 +1,200 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+                                                            /* Header Section */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    height: 50px;
+    box-shadow: 0px 0px 42px 0px #001B1D14;
+}
+
+.logo {
+    margin-left: 30px;
+    width: 100px;
+    margin-top: -20px;
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin-right: -600px;
+    margin-top: -20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #424242;
+}
+
+
+.btns {
+    margin-right: 30px;
+    display: flex;
+    gap: 1rem;
+    margin-top: -20px;
+}
+
+.si {
+    width: 85px;
+    height: 30px;
+    padding: 8px, 28px, 8px, 28px;
+    background-color: #DEE3FF;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #00A9A5;
+    font-weight: 600;
+}
+
+.su {
+    width: 85px;
+    height: 30px;
+    background-color: #00A9A5;
+    border: none;
+    border-radius: 8px;
+    padding: 8px, 28px, 8px, 28px;
+    color: #fff;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #00A9A5;
+text-decoration:underline ;
+}
+
+
+                                                         /* The Container Section */
+
+.container {
+    border: 2px solid#CCEEED;
+    width: 50em;
+    height: 28em;
+    margin-top: 40px;
+    margin-left: 250px;
+    padding-top: 30px;
+    border-radius: 24px;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    color: #00A9A5;
+}
+
+.details {
+    font-size: 12px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #767676;
+    margin-bottom: 15px;
+}
+
+
+                                                            /* The Main Form  */
+
+.first-form {
+    display: flex;
+    padding: 10px 40px 10px 40px ;
+    gap: 7rem;
+}
+  
+
+label {
+    color: #424242;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input {
+    margin: 5px 0px 15px 0;
+    width: 300px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #737171;
+}
+
+select {
+    margin: 5px 0px 15px 0;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #737171;
+    padding: 0px 15px 0px 15px;
+}
+
+select option { color: black; }
+select option:first-child { color: grey; }
+select.empty { color: grey; }
+/* Hidden placeholder */
+select option[disabled]:first-child { display: none; }
+
+                                                              /* Terms And Conditions */
+
+.second-form {
+    display: flex;
+    gap: 1rem;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.secondinput {
+    width: 15px;
+    border: 1px solid #00A9A5;
+}    
+
+.tc {
+    width: 400px;
+    color: #767676b6;
+}
+
+
+                                          /* CTA Button */
+
+
+
+ .cta {
+    width: 300px;
+    height: 40px;
+    padding: 14px, 28px, 14px, 28px;
+    border-radius: 8px;
+    background-color: #00A9A5;
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 230px;
+ }  
+ 
+ .ctap {
+    color: #767676b6;
+    font-size: 14px;
+    margin-left: 270px;
+    margin-top: 15px;
+    padding-bottom: 30px;
+ }
+
+ .second-si {
+    color: #00A9A5;
+ }
